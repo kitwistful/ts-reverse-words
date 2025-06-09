@@ -3,6 +3,8 @@ import { reverseEachWord } from './word_reverser';
 const tests = [
     {in: `jump`,
     out: `pmuj`},
+    {in: "",
+    out: ""},
     {in: `jump.`,
     out: `pmuj.`},
     {in: `nor'es'ter`,
