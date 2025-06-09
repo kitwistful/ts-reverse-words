@@ -21,6 +21,12 @@ const tests = [
     out: `ehT xof'se nur revo ot eht secnef, tub nod't pmuj.`},
     {in: `The fox-es run over to the fences! but don't jump?`,
     out: `ehT xof-se nur revo ot eht secnef! tub nod't pmuj?`},
+    {in: "jump123 l33t l3et",
+    out: "pmuj123 l33t l3te"},
+    {in: ",",
+    out: ","},
+    {in: ",!.",
+    out: ",!."},
 ]
 
 
